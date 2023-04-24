@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Blog News!!! - Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/stylesheets/login_style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+        <!-- Load an icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="titule">
+            <a href="/index.html"><h1>Blog News!!!</h1></a>
+        </div>
+        <div class="login-card">
+            <form class="form-content">
+                <div>
+                    <h2>Login</h2>
+                </div>
+                <div class="form-group">
+                    <label>E-mail: </label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label>Senha: </label>
+                    <input type="password" id="password">
+                </div>
+                <div id="checkbox-input">
+                    <label>remeber me </label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <button class="button-submit" onclick="login(event)" > Entrar</button>
+                    <a href="/singup.html"> Cadastrar-se </a>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <div>
+                <span>All rights reserved to jeronimoafb</span>
+            </div>
+
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook-official"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+          <!-- add axios to make HTTP requests -->
+          <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+          <!-- add javascript to the page -->
+          <script src="assets/javascript/login.js"></script>
+          
+    </body>
+</html>

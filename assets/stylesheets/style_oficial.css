@@ -1,0 +1,144 @@
+
+@font-face{
+    font-family: 'Handlee';
+    src: url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+}
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    background-color: indigo;
+    justify-content: space-between;
+
+}
+nav h1{
+    font-family: 'Handlee', cursive;
+    color: white;
+    
+}
+nav div{
+    align-items: stretch;
+    display: flex;
+    align-items: center; /*alinha no centro verticalmente*/
+}
+
+nav a {
+    height: 26px;
+    padding: 16px 24px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover{
+    background-color: #222222;
+}
+
+p{
+    color: purple;
+}
+
+.hidden{
+    display: none;
+}
+
+#session_section{
+    color: white;
+    padding: 8px;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap; /*ativa quebra de linha no flex*/
+    margin: 12px;
+    justify-content: space-between;
+
+}
+
+#main_col {
+    background-color: #ccc;
+    flex: 1;
+    padding: 24px;
+}
+
+#side_col {
+    background-color: #aaa;
+    width: 30%;
+}
+
+#side_col div{
+    padding: 15px;
+}
+
+.card {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.card-mini {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.photo-mini{
+    width: 110px;
+    background-color: black;
+}
+
+.photo{
+    width: 300px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    flex-shrink: 1;
+    width: auto;
+    height: 100%;
+}
+
+.content{
+    padding: 24px;
+}
+
+footer {
+    padding: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    
+}

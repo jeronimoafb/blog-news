@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "admin": true,
+      "name": "User_01",
+      "email": "user01@email.com",
+      "password": "password"
+    },
+    {
+      "name": "Pessoa",
+      "email": "pessoa@email.com",
+      "password": "123456",
+      "admin": false,
+      "id": 2
+    }
+  ],
+  "news": [
+    {
+      "image": "https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Título da notícia diaria",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "id": 1
+    }
+  ]
+}

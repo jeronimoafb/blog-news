@@ -1,0 +1,90 @@
+@font-face{
+    font-family: 'Handlee';
+    src: url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: indigo;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+
+.login-card{
+    background-color: white;
+    width: 512px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+
+}
+
+.titule{
+    color: white;
+}
+
+.titule a{
+    color: white;
+    text-decoration: none;
+} 
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 98%;
+    display: block;
+    border-radius: 0.25rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: .5rem .25rem;
+    border: 1px solid #aaa;
+    margin-top: 8px;
+}
+
+.form-group input:focus{
+    outline: none !important;
+    border: 3px solid indigo;
+}
+
+.button-submit{
+    display: block;
+    background-color: green ;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgb(1, 88, 1);
+    font-size: 1.2rem;
+}
+
+.button-submit:hover{
+    background-color: indigo;
+    cursor: pointer;
+}
+
+#checkbox-input{
+    margin-bottom: 10px;
+    margin-top: px;
+}
+
+footer{
+    background-color: indigo;
+    color: white;
+}
+
+footer a {
+    color: white;
+}

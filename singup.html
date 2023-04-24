@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/stylesheets/login_style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Sing Up</title>
+    
+</head>
+<body>
+    <div class="titule">
+            <a href="/index.html"><h1>Blog News!!!</h1></a>
+        </div>
+        <div class="login-card">
+            <form class="form-content">
+                <div>
+                    <h2>Sign Up</h2>
+                </div>
+                <div class="form-group">
+                    <label>Nome: </label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label>E-mail: </label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label>Senha: </label>
+                    <input type="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label>Confirme a senha: </label>
+                    <input type="password" id="confirm_password">
+                </div>
+                <div>
+                    <button class="button-submit" onclick="singup(event)" > Cadastrar</button>
+                    <a href="/login.html"> Entrar </a>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <div>
+                <span>All rights reserved to jeronimoafb</span>
+            </div>
+
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook-official"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+        <!-- add stylish alert boxes -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- add axios to make HTTP requests -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- add javascript to the page -->
+        <script src="assets/javascript/signup.js"></script>
+</body>
+</html>
